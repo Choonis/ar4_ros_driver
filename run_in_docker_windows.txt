@@ -1,0 +1,3 @@
+
+
+docker run -it --env="DISPLAY=host.docker.internal:0.0" -v ${PWD}:/ar4_ros_driver --gpus all --name ar4_ros ar4_ros_driver bash
